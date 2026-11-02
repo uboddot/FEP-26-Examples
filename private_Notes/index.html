@@ -8,6 +8,32 @@
   <body>
     <h1>Lecture 1</h1>
 
-    <script src="script.js"></script>
+    <h1>Lecture 2</h1>
+    <button type="button" onclick="sayHello()" id="sayingBtn">
+      ...loading
+    </button>
+
+    <div style="margin-top: 2rem">Input and Form:</div>
+    <ul>
+      <li>
+        <input type="text" id="name" placeholder="What is your Name?" />
+        <button type="button" , onClick="handleName()">Click me!</button>
+      </li>
+      <li>
+        <input type="number" id="year" placeholder="What year is it?" />
+        <button type="button" , onClick="nextYear()">Click me!</button>
+      </li>
+      <li>
+        <button type="button" onclick="getPromptInput()">Input</button>
+        <div id="prompt-shower">no input yet</div>
+      </li>
+    </ul>
+
+    <div style="margin-top: 2rem; background-color: blue">
+      Stuff appendend in scripts to body ^^
+    </div>
+
+    <script src="script_l1.js"></script>
+    <script src="script_l2.js"></script>
   </body>
 </html>

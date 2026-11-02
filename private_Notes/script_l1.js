@@ -1,6 +1,6 @@
 console.log("Hello World");
 
-document.body.innerHTML = "<h1> Hello World </h1>";
+// document.body.innerHTML = "<h1> Hello World </h1>";
 
 function myFunction() {
   console.log("my function is functional`!");
